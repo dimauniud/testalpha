@@ -1,4 +1,4 @@
-RUN java
+FROM java
 COPY JavaTest.java .
 RUN javac JavaTest.java
 
